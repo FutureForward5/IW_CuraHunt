@@ -1,0 +1,35 @@
+/*Advertisement section styling*/
+.advertisement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.advertisement div {
+    background: url(/advertisement1.jpg);
+    width: inherit;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: advertise 60s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes advertise {
+    0% {
+        background-image: url(/advertisement4.jpg);
+    }
+
+    50% {
+        background-image: url(/advertisement2.png);
+    }
+
+    100% {
+        background-image: url(/advertisement3.jpg);
+    }
+}
+
+/*advertisement section styling end here*/

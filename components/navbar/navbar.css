@@ -1,0 +1,167 @@
+/*header and nav bar styling*/
+.header-style {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+
+.nav-first {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.logo-image img {
+    width: 9rem;
+    height: 2.5rem;
+}
+
+.login {
+    margin-right: 1rem;
+}
+
+.login-btn {
+    align-items: center;
+    appearance: none;
+    background-color: var(--var1);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.7rem;
+    height: auto;
+    padding: 6px 20px;
+    margin-left: 1rem;
+    touch-action: manipulation;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon {
+    background-color: var(--var1);
+    padding: 5px 7px;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.9rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--var3);
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: var(--var2);
+    padding: 6px 10px;
+}
+
+.navbar ul li:hover {
+    background-color: #66e0e0;
+}
+
+/*header styling end here*/
+
+
+/*moblie navbar*/
+.mabile-icon {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.mobile-nav-btn {
+    display: none;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.drop-down-menu {
+    position: absolute;
+    top: 20px;
+    right: 1rem;
+    background-color: white;
+    display: none;
+    border-radius: 5px;
+}
+
+.drop-down-menu.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 5px;
+    top: auto;
+    left: auto;
+}
+
+.drop-down-menu ul {
+    display: block;
+}
+
+.drop-down-menu li {
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+/*moblie navbar styling end here*/
+@media screen and (max-width: 750px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .drop-down-menu {
+        left: 2rem;
+        width: unset;
+    }
+
+    .desktop-navbar {
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+    }
+}

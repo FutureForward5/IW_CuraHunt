@@ -1,0 +1,49 @@
+.notice h1 {
+    color: var(--var1);
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 1.17em
+}
+
+.notice h1::after {
+    content: "";
+    width: 5rem;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.notice h1::before {
+    content: "";
+    width: 5rem;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.notice div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    overflow: auto;
+}
+
+.notice span {
+    display: inline-block;
+    width: 80%;
+    text-align: justify;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .notice {
+        display: none;
+    }
+}
