@@ -10,6 +10,9 @@ import advertisement2 from "./images/advertisement2.png";
 import advertisement3 from "./images/advertisement3.jpg";
 import advertisement4 from "./images/advertisement4.jpg";
 import footerdoc from "./images/footerdoc.png";
+import auth1 from "./images/auth1.svg";
+import auth2 from "./images/auth2.svg";
+import auth3 from "./images/auth3.svg";
 
 export {
   logo,
@@ -24,4 +27,7 @@ export {
   advertisement3,
   advertisement4,
   footerdoc,
+  auth1,
+  auth2,
+  auth3,
 };

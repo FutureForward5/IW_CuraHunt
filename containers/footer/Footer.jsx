@@ -31,8 +31,7 @@ const Footer = () => {
             <a href="#">
               <i className="fab fa-whatsapp icon"></i>
             </a>
-            <a href="">
-              {" "}
+            <a href="#">
               <i className="fab fa-twitter-square icon"></i>
             </a>
             <a href="#">

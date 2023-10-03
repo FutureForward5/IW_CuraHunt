@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="login">
               <i className="fas fa-user icon"></i>
               <button className="login-btn">
-                <a href="#">Login</a>
+                <a href="sign-in">Login</a>
               </button>
             </div>
             <div className="mobile-nav-btn" onClick={toggle}>
