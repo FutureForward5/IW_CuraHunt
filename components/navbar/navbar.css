@@ -1,14 +1,19 @@
 /*header and nav bar styling*/
+.nav-container {
+    height: 60px;
+}
 .header-style {
     width: 100%;
     position: fixed;
     top: 0;
     background-color: white;
     z-index: 99;
+    height: 60px;
 }
 
 .nav-first {
     width: 100%;
+    height: inherit;
     display: flex;
     justify-content: space-between;
 }
@@ -26,7 +31,7 @@
 
 .logo-image img {
     width: 9rem;
-    height: 2.5rem;
+    height: 3.5rem;
 }
 
 .login {
@@ -66,13 +71,20 @@ a {
 
 .navbar {
     position: fixed;
-    top: 40px;
     width: 100%;
+    height: inherit;
     display: flex;
     justify-content: center;
     background-color: var(--var3);
 }
 
+.desktop-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .navbar ul {
     list-style: none;
 }
@@ -141,6 +153,9 @@ a {
 /*moblie navbar styling end here*/
 @media screen and (max-width: 750px) {
 
+    .nav-container {
+            height: 0px;
+        }
     .navbar {
         display: none;
     }
