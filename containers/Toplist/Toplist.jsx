@@ -4,7 +4,7 @@ import Notice from "@/components/notice/Notice";
 
 const Toplist = () => {
   return (
-    <div className="toplist">
+    <div className="toplist"> 
       <div className="list">
         <Topcard type="hospital" />
         <Topcard type="doctor" />
