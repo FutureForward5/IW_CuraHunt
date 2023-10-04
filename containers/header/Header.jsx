@@ -2,7 +2,11 @@ import Search from "@/components/search/Search";
 
 const Header = () => {
   return (
-    <div>
+    <div
+      style={{
+        marginTop: "-10px",
+      }}
+    >
       <Search />
       <section className="advertisement">
         <div />

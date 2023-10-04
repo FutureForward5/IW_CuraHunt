@@ -1,13 +1,13 @@
 /* search section styling*/
 .search-img img {
-    width: 8rem;
-    height: 6rem;
+    width: 10rem;
+    height: 9rem;
 }
 
 .search {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--var1);
     height: 10rem;

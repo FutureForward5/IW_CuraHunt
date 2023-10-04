@@ -76,6 +76,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: var(--var3);
+    top: 60px;
 }
 
 .desktop-navbar {
