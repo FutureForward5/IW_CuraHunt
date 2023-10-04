@@ -31,7 +31,7 @@ const Topcard = ({ type }) => {
         {data.map((item) => (
           <div key={item._id}>
             <div>
-              <Image src={item.p_img} alt={item.name} width={50} height={50} />
+              {/* <Image src={item.p_img} alt={item.name} width={50} height={50} /> */}
             </div>
             <span>{item.name}</span>
           </div>
