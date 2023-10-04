@@ -7,8 +7,6 @@ const Toplist = () => {
     <div className="toplist">
       <div className="list">
         <Topcard type="hospital" />
-      </div>
-      <div className="list">
         <Topcard type="doctor" />
       </div>
       <Notice />
