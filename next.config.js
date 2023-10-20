@@ -5,7 +5,11 @@ const nextconfig = {
     serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
-    domains: ["content.jdmagicbox.com", "drive.google.com"],
+    domains: [
+      "content.jdmagicbox.com",
+      "images1-fabric.practo.com",
+      "drive.google.com",
+    ],
   },
 };
 
