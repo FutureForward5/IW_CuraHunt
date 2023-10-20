@@ -31,7 +31,7 @@ import kidney from "./images/kidney.png";
 import lapa from "./images/lapa.png";
 import lisik from "./images/lisik.png";
 import lipo from "./images/lipo.png";
-import piles from "./images/piles.png";
+import piles from "./images/piles.png"; 
 import pilo from "./images/pilo.png";
 import seb from "./images/seb.png";
 import vari from "./images/vari.png";
